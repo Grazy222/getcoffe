@@ -11,17 +11,17 @@
 header{
     display: flex;
     height: 20vh;
-    border: solid;
+    border: solid cadetblue;
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px 2px 2px #24242426;
 }
-header div{
+.logoGraos{
     
     display: flex;
     width: 10vw;
     justify-content: space-around;
-    
+    font-weight: 700;
 }
 ul{
     display: flex;
@@ -30,8 +30,56 @@ ul{
     font-size: 20px;
 }
 h2{
-    font-weight: 700;
+    
 }
+main{
+    height: 70vh;
+    display: flex;
+}
+.copoCafe{
+    width: 40vw;
+    height: 53vh;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.text {
+   height: 60vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+button{
+    display: flex;
+    width: 20vw;
+    height: 7vh;
+    background-color: #FCA60F;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: none;
+    
+}
+p{
+    
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    width: 30vw;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 @media (max-width:500px) {
     header{
@@ -40,5 +88,39 @@ h2{
     }
     ul{
         width: 80vw;
+    }
+    main{
+        width: 100vw;
+        height: 78vh;
+        flex-direction: column;
+       
+    }
+    .text{
+        width: 99vw;
+        height: 77vh;
+        align-items: center;
+    }
+    p{
+        font-size: 25px;
+        width: 78vw;
+        height: 42vh;
+        align-items: center;
+        
+    }
+    button{
+        width: 37vw;
+        height: 13vh;
+        border: none;
+        
+    }
+    .redes{
+        width: 80vw;
+        height: 100vh;
+        align-items: flex-end;
+        
+    }
+    .copoCafe{
+        display: none;
+        
     }
 }
